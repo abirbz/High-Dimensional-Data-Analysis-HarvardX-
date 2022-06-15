@@ -152,6 +152,7 @@ newe = e+newmeans ##we change the means
 sqrt(crossprod(e[,3]-e[,45]))
 sqrt(crossprod(newe[,3]-newe[,45]))
 
+
 So we might as well make the mean of each row 0 since it does not help us approximate the column distances. We will define y as the detrended e and recompute the SVD:
 
 y = e - rowMeans(e)
